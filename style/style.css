@@ -1,0 +1,21 @@
+nav ul li {
+    margin: 10px; 
+    display: inline-block;
+}
+.Bar{
+    display: none;
+}
+
+@media(max-width:400px) {
+    #nav{
+        display: none;
+    }
+    .Bar{
+        display: block;
+        right: 0;
+    }
+    #nav.show {
+        display: inline-block;
+        width: 100%;        
+}
+}
